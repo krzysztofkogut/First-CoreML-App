@@ -15,6 +15,7 @@
 		0164FD0F25408B60009BBBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0164FD0D25408B60009BBBBA /* LaunchScreen.storyboard */; };
 		0164FD1A25408B60009BBBBA /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164FD1925408B60009BBBBA /* SeeFoodTests.swift */; };
 		0164FD2525408B60009BBBBA /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164FD2425408B60009BBBBA /* SeeFoodUITests.swift */; };
+		0164FD3625408C1E009BBBBA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0164FD3525408C1E009BBBBA /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0164FD2025408B60009BBBBA /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0164FD2425408B60009BBBBA /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		0164FD2625408B60009BBBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0164FD3525408C1E009BBBBA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0164FD0B25408B60009BBBBA /* Assets.xcassets */,
 				0164FD0D25408B60009BBBBA /* LaunchScreen.storyboard */,
 				0164FD1025408B60009BBBBA /* Info.plist */,
+				0164FD3525408C1E009BBBBA /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0164FD0725408B5F009BBBBA /* ViewController.swift in Sources */,
+				0164FD3625408C1E009BBBBA /* Inceptionv3.mlmodel in Sources */,
 				0164FD0325408B5F009BBBBA /* AppDelegate.swift in Sources */,
 				0164FD0525408B5F009BBBBA /* SceneDelegate.swift in Sources */,
 			);
